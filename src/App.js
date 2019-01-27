@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Card from "./components/UserInfo";
+import SkinsInfo from "./components/SkinsInfo";
 import UserInfo from "./components/UserInfo";
 
 class App extends Component {
   render() {
     return (
       <>
-        <UserInfo />
+        <SkinsInfo />
       </>
     );
   }
