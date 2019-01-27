@@ -1,9 +1,14 @@
 import React, { Component } from "react";
-import Card from "./Card";
+import Card from "./components/UserInfo";
+import UserInfo from "./components/UserInfo";
 
 class App extends Component {
   render() {
-    return <Card />;
+    return (
+      <>
+        <UserInfo />
+      </>
+    );
   }
 }
 
